@@ -155,14 +155,14 @@ header .logo-img {
 }
 
 .circle {
-  background-image: url(/assets/circle.svg);
+  background-image: url(https://mortvicious.github.io/tic-tac-toe/assets/circle.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 5rem;
 }
 
 .cross {
-  background-image: url(/assets/cross.svg);
+  background-image: url(https://mortvicious.github.io/tic-tac-toe/assets/cross.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 5rem;

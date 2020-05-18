@@ -107,16 +107,16 @@ header .logo-img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   color: #a3a3a3;
-  -webkit-transition: 1s;
-  transition: 1s;
 }
+
 
 .players .active {
   color: #2a2a2a;
-  text-shadow: 1px 1px 10px #15ff00;
   font-weight: bold;
-  -webkit-transition: 1s;
-  transition: 1s;
+  border: none;
+  background-color: #c5ffc3;
+  border-radius: 20px;
+  padding: 1rem;
 }
 
 .grid-container {

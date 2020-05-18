@@ -80,7 +80,7 @@
           checker = (arr, target) => target.every(v => arr.includes(v))
           winner(el) {
                if  (el.length > 4){
-                    return
+                    retry()
                } else if  (el.length > 2) {
                     for  (let i = 0; i < winCombos.length; i++){
                          if (this.checker(el, winCombos[i]) === true){
@@ -128,7 +128,7 @@
 
      aiC.winner = function(el) {
                if  (el.length > 4){
-                    alert("It's a tie")
+                    retry()
                } else if  (el.length > 2) {
                     console.log(`length is more than 2, start checking`)
                     for  (let i = 0; i < winCombos.length; i++){
